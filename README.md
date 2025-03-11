@@ -7,9 +7,11 @@ git submodule update
 ```
 This will fetch the data from the submodule.
 
-## Footprins
+## Symbols and Footprins
 |**File Name**|**Description**| 
 | :------- | :-------- |
 | R_SMD_XXXX | SMD resistor in XXXX package |
 | STM32F103C8T6 | ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit Single-Core 72MHz 64KB (64K x 8) FLASH |
 | LM1117IMPX-3.3/NOPB | Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-4 |
+|GSB343K331HR| USB - micro B USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 10 Position Surface Mount, Right Angle; Through Hole|
+|CYUSB3065-BZXI|USB SuperSpeed Peripherals, 2/4-Lanes MIPI CSI-2, GPIO, I2C, SPI, I2S, UART, BGA-121, RoHS|
