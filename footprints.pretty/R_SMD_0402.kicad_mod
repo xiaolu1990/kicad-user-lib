@@ -1,7 +1,7 @@
 (footprint "R_SMD_0402"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Resistor 0402")
 	(property "Reference" "REF**"
@@ -11,8 +11,8 @@
 		(uuid "de93136c-45c7-4de9-aa45-5534014ed53d")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -25,20 +25,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3a877716-9c4b-4ccc-9547-f879b1aa0804")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -51,7 +38,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -64,7 +51,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -76,9 +63,20 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "76ed0f74-09eb-4ab0-a218-cd3ecedcf9dd")
+	)
+	(fp_rect
+		(start -1 -0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bdeeb097-feff-4451-8abe-3f9a56e7b4ca")
 	)
 	(fp_rect
 		(start -0.5 -0.25)
@@ -87,26 +85,26 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cd2a6770-ace8-4c81-b91d-990ebb606486")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.4 0)
+		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b88699a5-6b5c-4812-8a8a-9403be968189")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
 	(pad "1" smd rect
 		(at -0.55 0)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
 		(thermal_bridge_angle 45)
 		(uuid "f5ab91b7-0ca4-4e39-a302-7d1038bc4bda")
@@ -114,12 +112,13 @@
 	(pad "2" smd rect
 		(at 0.55 0)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
 		(thermal_bridge_angle 45)
 		(uuid "ce687c88-9412-4d20-9df8-78ee16bee962")
 	)
-	(model "${GITHUB_3DMODEL_DIR}/resistor.3dshapes/R_SMD_0402.STEP"
+	(embedded_fonts no)
+	(model "${USER_3DMODEL_DIR}/resistor.3dshapes/R_SMD_0402.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -127,7 +126,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
