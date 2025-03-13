@@ -1,4 +1,4 @@
-24868628776013428
+24870370658838158
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98839,6 +98839,13 @@ IC MCU 32BIT 64KB FLASH 48LQFP
 0
 48
 48
+User
+USB4105-GF-A
+CONN RCP USB2.0 TYP C 24P SMD RA
+USB2.0, USB C
+0
+16
+16
 User_Old
 74AHC08PW-Q100J
 Package TSSOP-14
