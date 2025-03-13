@@ -38,6 +38,13 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | C_SMD_0603.step | SMD Capacitor 0603 |
 | C_SMD_0805.step | SMD Capacitor 0805 |
 
+## Diodes, LEDs
+
+| **File Name**     | **Description** |
+| :---------------- | :-------------- |
+| LED_SMD_0402.step | SMD LED 0402    |
+| LED_SMD_0603.step | SMD LED 0603    |
+
 ## MCU
 
 | **File Name**  | **Description**                                                                            |

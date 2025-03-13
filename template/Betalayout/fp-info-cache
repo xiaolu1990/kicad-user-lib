@@ -1,4 +1,4 @@
-24865145018677862
+24868628776013428
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98776,6 +98776,20 @@ USB3.0, MICRO B, RECEPTACLE,RIGH
 0
 12
 12
+User
+LED_SMD_0402
+SMD LED 0402
+
+0
+2
+2
+User
+LED_SMD_0603
+SMD LED 0603
+
+0
+2
+2
 User
 LM1117IMPX-3.3NOPB
 IC REG LIN 3.3V 800MA SOT-223-4

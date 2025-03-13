@@ -1,0 +1,235 @@
+(footprint "LED_SMD_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD LED 0603")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7e18fc00-0eb4-4b31-8f28-bab73d1b883e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_SMD_0603"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9e0dfae-01c3-408b-8b24-708a7018d601")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "758d5ff5-6571-4b9c-8502-c2cfc642e0d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Description" "SMD LED 0603"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "724aaeeb-4e3c-48ce-b7ee-b479e0b0ba2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -0.4)
+		(end -1.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "768c4d96-f9cc-4376-a59c-759119e2038f")
+	)
+	(fp_line
+		(start -1.4 -0.3)
+		(end -1.4 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c970881-e9a8-40c5-8441-bceb96d5e575")
+	)
+	(fp_line
+		(start -1.4 0.3)
+		(end -1.4 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7178c73d-de3c-48bd-8a6f-a435ff59a3df")
+	)
+	(fp_line
+		(start -1.2 -0.6)
+		(end -1.4 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ccba47c3-9bcd-4bb7-8243-b21341a3c257")
+	)
+	(fp_line
+		(start -1.2 0.6)
+		(end -1.4 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "83d88b59-671c-4a47-a81e-21a8a5ce2bed")
+	)
+	(fp_line
+		(start -0.7 -0.6)
+		(end -1.2 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbb30cb5-ada8-4529-9794-97138897f47a")
+	)
+	(fp_line
+		(start -0.7 0.6)
+		(end -1.2 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b1db0eb8-8d7b-4877-afb7-c422fdf46768")
+	)
+	(fp_line
+		(start 0.7 -0.6)
+		(end 1.4 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "663f37bd-5115-48fe-9f7c-40d61bb3319d")
+	)
+	(fp_line
+		(start 1.4 -0.6)
+		(end 1.4 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70215d5a-5689-421d-ac9d-3b28fa8f1204")
+	)
+	(fp_line
+		(start 1.4 0.6)
+		(end 0.7 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56e43c43-c891-443f-bc7e-fe62d1b10df6")
+	)
+	(fp_rect
+		(start -1.4 -0.6)
+		(end 1.4 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8dc3ef3a-0853-4f08-8b6f-7f09d0827060")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bab69f77-fbcf-409c-9993-14ed82ea6501")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b891c20-adc1-4fd2-97c7-8d766d40c600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf088aae-c41b-47dd-a148-1f35b514d906")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(thermal_bridge_angle 45)
+		(uuid "6435304d-5728-40e0-b018-fa5a51c2026a")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(thermal_bridge_angle 45)
+		(uuid "503ce1ef-abc5-4cb1-b635-81f1a5ce18ea")
+	)
+	(embedded_fonts no)
+	(model "${USER_3DMODEL_DIR}/diodes.3dshapes/LED_SMD_0603.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
