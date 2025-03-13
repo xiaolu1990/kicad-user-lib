@@ -53,10 +53,10 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Crystals, Oscillators, Resonators
 
-| **File Name**              | **Description**                                                                    |
-| :------------------------- | :--------------------------------------------------------------------------------- |
-| CRYSTAL 8.0000MHZ 12PF SMD | 8 MHz ±20ppm Crystal 12pF 400 Ohms 4-SMD, No Lead                                  |
-| ECS-327MVATX-2-CN-TR3      | 32.768 kHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead |
+| **File Name**         | **Description**                                                                    |
+| :-------------------- | :--------------------------------------------------------------------------------- |
+| ECS-80-12-33-JGN-TR   | 8 MHz ±20ppm Crystal 12pF 400 Ohms 4-SMD, No Lead                                  |
+| ECS-327MVATX-2-CN-TR3 | 32.768 kHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead |
 
 ## Connector
 

@@ -1,4 +1,4 @@
-24861661274563830
+24865145018677862
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98755,6 +98755,20 @@ Murata, GRM21
 0
 2
 2
+User
+ECS-80-12-33-JGN-TR
+ECS SMD Crystal (3.2 x 2.5 mm)
+ECS XTAL, SMD, 3.2 x 2.5 mm
+0
+4
+4
+User
+ECS-327MVATX-2-CN-TR3
+ECS SMD Oscillator (2.5 x 2 mm)
+ECS, SMD, 2.5 x 2 mm
+0
+4
+4
 User
 GSB343K331HR
 USB3.0, MICRO B, RECEPTACLE,RIGH
