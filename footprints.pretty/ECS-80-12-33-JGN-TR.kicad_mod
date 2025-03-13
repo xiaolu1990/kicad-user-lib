@@ -1,0 +1,146 @@
+(footprint "ECS-80-12-33-JGN-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ECS SMD Crystal (3.2 x 2.5 mm)")
+	(tags "ECS XTAL, SMD, 3.2 x 2.5 mm")
+	(property "Reference" "X**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "47ecf13c-6a20-4de6-8419-825c44c9efb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ECS-80-12-33-JGN-TR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca7c2a1e-5ef7-4b86-b67c-7c80d3c8e425")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c85be57-27e8-4eda-8d36-913a5ea88c9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Description" "ECS SMD Crystal (3.2 x 2.5 mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cd24ac3-71e5-4dfa-a269-fcddb7ffb1c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(solder_mask_margin 0.06)
+	(attr smd)
+	(fp_line
+		(start -2.25 1.125)
+		(end -2.25 1.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b71419e-a7fa-41c7-b312-cf594bd629ee")
+	)
+	(fp_line
+		(start -2.25 1.875)
+		(end -1.5 1.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf16eae9-8c41-4c1d-b432-d2a1df54f063")
+	)
+	(fp_rect
+		(start -2 -1.6)
+		(end 2 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cbb0a3ad-eb09-443c-8dff-4670542c609b")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "74294e7b-5d7d-490c-aa5f-b64f2646eff0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0126195a-c42a-4af0-abef-c4c5b2681204")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0.9 180)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4673a9c-b4e7-4298-9223-ce63b0958c83")
+	)
+	(pad "2" smd rect
+		(at 1.15 0.9 180)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86e419ce-5560-49ad-a927-c8c53c81f734")
+	)
+	(pad "3" smd rect
+		(at 1.15 -0.9 180)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "287b64dc-0bbd-47c7-a174-deca32b40688")
+	)
+	(pad "4" smd rect
+		(at -1.15 -0.9 180)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3154b1bf-4ad5-4d30-a92f-3192657db4f4")
+	)
+	(embedded_fonts no)
+	(model "${USER_3DMODEL_DIR}/crystal.3dshapes/ECS-80-12-33-JGN-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

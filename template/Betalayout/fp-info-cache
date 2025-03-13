@@ -1,4 +1,4 @@
-24751280844857708
+24861661274563830
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98735,6 +98735,27 @@ IC ARM9 USB3 CONTROLLER 121FBGA
 121
 121
 User
+C_SMD_0402
+SMD Capacitor 0402
+Murata, GRM15
+0
+2
+2
+User
+C_SMD_0603
+SMD Capacitor 0603
+Murata, GRM18
+0
+2
+2
+User
+C_SMD_0805
+SMD Capacitor 0805
+Murata, GRM21
+0
+2
+2
+User
 GSB343K331HR
 USB3.0, MICRO B, RECEPTACLE,RIGH
 
@@ -98790,6 +98811,433 @@ IC MCU 32BIT 64KB FLASH 48LQFP
 0
 48
 48
+User_Old
+74AHC08PW-Q100J
+Package TSSOP-14
+Logic AND gate, 4 Channel
+0
+14
+14
+User_Old
+1803277
+Pluggable Terminal Blocks 2 Pos 3.81mm pitch Through Hole Header
+Terminal Blocks, 2 Pos, 3.81mm pitch
+0
+2
+2
+User_Old
+AMPHENOL_GSB343K331HR
+USB 3.2 GEN 1 Type Micro B Receptacle
+
+0
+12
+12
+User_Old
+AP22817AKAWT-7
+USB Switch ICs USB Power Switch TSOT25
+PMIC, USB Switch
+0
+5
+5
+User_Old
+BGA_121_0.8mm
+121-ball BGA (10 × 10 × 1.7 mm), 0.8mm pitch
+BGA 121 0.8
+0
+121
+121
+User_Old
+Bourns_SRP1038A
+SRP1038A-220M
+Inductor
+0
+2
+2
+User_Old
+CSL1104WBBW1
+CSL1104WBBW1-2, NanEye LED breakout
+LED
+0
+2
+2
+User_Old
+CUI_PJ-037AH
+Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Through Hole, Right Angle
+
+0
+2
+2
+User_Old
+CUI_PJ-044AH
+CONN PWR JACK 2.10MMX5.50MM, THT, Vertical Mount
+
+0
+3
+3
+User_Old
+DRB0008A
+
+TVS2701DRVR 
+0
+13
+9
+User_Old
+DRL0005A
+SOT5-0.6mm max height, Texas Instruments
+
+0
+5
+5
+User_Old
+DRV0006A
+
+TVS2700DRVR 
+0
+7
+7
+User_Old
+ECMF420A42N10
+ECMF4-20A42N10-2
+Filter
+0
+10
+10
+User_Old
+ECS-2520MVLC
+ECS-2520MVLC
+Crystal or Oscillator
+0
+4
+4
+User_Old
+ECX-1637B2
+Crystals 25.000 MHz 6 pF ECX-1637B2 +/-25/30ppm -30 - +85C +/-2 ppm Aging 2016 4-SMD RoHS
+Crystal, ECX-1637B2
+0
+4
+4
+User_Old
+Eaton_EXLA1V05
+Eaton EXLA1V05 series inductor
+Inductor
+0
+2
+2
+User_Old
+GSB422137EU
+USB Connectors USB3.1 B VERT DIP 30ugold
+USB Connector, Vertical Type, Type B
+0
+12
+11
+User_Old
+GSB4211311WEU
+USB3 Type B Receptacle, Right Angled
+USB 3.2 GEN 2, Type B, Receptacle, Right Angle Standard, 9 Pins,
+0
+11
+11
+User_Old
+JACK-C-PANEL-8A(R)
+CONN PWR JACK 2.10MMX5.50MM, Panel Mount, Vertical
+
+0
+2
+2
+User_Old
+LED_THT_2.54mm_pitch
+LED Through Hole, 2.54 mm pitch
+LED Through Hole, 2.54 mm pitch
+0
+2
+2
+User_Old
+LFCSP-6
+LFCSP, exposed pad, Analog Devices (https://www.mouser.de/datasheet/2/609/ADP196-1503439.pdf)
+LFCSP 6
+0
+7
+6
+User_Old
+MountingHole_M1.6
+
+
+0
+0
+0
+User_Old
+Mouse_bite_1mm
+
+
+0
+0
+0
+User_Old
+Mouse_bite_2mm
+
+
+0
+0
+0
+User_Old
+NCP360SNT1G
+TSOP-5 CASE 483-02
+Integrated Circuit
+0
+5
+5
+User_Old
+NanEye_Sensor_Round_THT
+
+
+0
+4
+4
+User_Old
+NanEye_Sensor_SMD
+
+
+0
+4
+4
+User_Old
+PI3USB302AZBEX
+20-TQFN (ZB)
+Integrated Circuit
+0
+21
+21
+User_Old
+PUSB3TB6AZ
+ESD Suppressors / TVS Diodes, SOT1358
+Diode ESD (Uni-directional), USB, 6 channel
+0
+7
+7
+User_Old
+PowerPAK_SO-8L_Dual
+PowerPAK SO-8 Dual (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72600/72600.pdf)
+PowerPAK SO-8L Dual
+0
+10
+6
+User_Old
+PushButton_TS04_Series
+Tactile Switches 6 x 6 mm
+Push button, tactile switch, SMD, SPST
+0
+4
+4
+User_Old
+QFN20_5x5mm
+RGW(S-PVQFN-N20)
+Integrated Circuit
+0
+21
+21
+User_Old
+RT6285GSP
+8-Lead SOP (Exposed Pad)_2023
+Integrated Circuit
+0
+9
+9
+User_Old
+SC70-6L_VIS
+Vishay, Thermally enhanced PowerPAK® SC-70
+SIA483DJ-T1-GE3 
+0
+8
+7
+User_Old
+SMAJ5A
+SMAJ5.0A
+TVS Diode (Uni-directional)
+0
+2
+2
+User_Old
+SOD-123
+Diode MCC SOD-123 package
+SMD diode, MCC SOD-123
+0
+2
+2
+User_Old
+SOP65P490X110-8N
+MS8 Package-2020
+Integrated Circuit
+0
+8
+8
+User_Old
+SOT95P275X110-6N
+6 Thin SOT23
+Integrated Circuit
+0
+6
+6
+User_Old
+SP3011-06UTG
+µDFN-14 (3.5x1.35x0.5mm)
+TVS diode, USB Superspeed
+0
+14
+14
+User_Old
+SST25VF020B-80-4I-SAE
+IC FLASH 2MBIT SPI 80MHZ 8SOIC
+SOIC, 8 pin, SPI flash 
+0
+8
+8
+User_Old
+SolderPad_0.5mmPitch_16Pos
+
+
+0
+16
+16
+User_Old
+SolderPad_1mmPitch_16Pos
+
+
+0
+16
+16
+User_Old
+SolderPad_User
+
+
+0
+1
+1
+User_Old
+TL2201EEYA
+TL2201
+Push button, DPDT
+0
+6
+6
+User_Old
+TPD2E2U06DRLR
+ESD Suppressors / TVS Diodes Dual-Ch High-Speed ESD Protection
+USB 2.0 ESD protection, TVS diode
+0
+5
+5
+User_Old
+TPD4E02B04DQAR
+DQA (R-PUSON-N10)
+Diode
+0
+10
+10
+User_Old
+TPD4E05U06DQAR
+DQA (R-PUSON-N10)
+Diode
+0
+10
+10
+User_Old
+TP_1mm
+
+
+0
+1
+1
+User_Old
+TactileSwitch_4x3mm&4x4mm
+Universal footprint for 4x3 and 4x4 tactile switch
+
+0
+8
+4
+User_Old
+TactileSwitch_5x5mm
+
+
+0
+6
+4
+User_Old
+USB5744
+56-QFN-2
+Integrated Circuit
+0
+57
+57
+User_Old
+USB1135159LB
+USB1135-15-9-L-B-3
+Connector
+0
+11
+11
+User_Old
+WCAP-PSLP
+Wurth Elektronik WCAP-PSLP Polymer SMD Capacitors
+
+0
+2
+2
+User_Old
+WSON12_DRRR
+IC REG BUCK ADJ 12WSON
+LMR51450SDRRR , Step-down comverter
+0
+13
+13
+User_Old
+Wago 250-202
+PCB terminal block, Pin spacing 3.5mm 
+PCB terminal block
+0
+2
+2
+User_Old
+Wago 250-204
+4 Position Wire to Board Terminal Block 45° (135°) Angle with Board 0.138" (3.50mm) Through Hole
+4 pos, terminal block, 3.5mm pitch
+0
+4
+4
+User_Old
+Wago 250-206
+6 Position Wire to Board Terminal Block 45° (135°) Angle with Board 0.138" (3.50mm) Through Hole
+6 pos, terminal block, 3.5mm pitch
+0
+6
+6
+User_Old
+ZX360DB10P30
+ZX360D-B-10P(30)-4
+Connector
+0
+18
+18
+User_Old
+logo_custom_01
+
+
+0
+0
+0
+User_Old
+logo_custom_02
+
+
+0
+0
+0
+User_Old
+logo_smart optics
+
+
+0
+0
+0
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
