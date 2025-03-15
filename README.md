@@ -51,6 +51,7 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | :------------- | :----------------------------------------------------------------------------------------- |
 | STM32F103C8T6  | ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit Single-Core 72MHz 64KB (64K x 8) FLASH   |
 | CYUSB3065-BZXI | USB SuperSpeed Peripherals, 2/4-Lanes MIPI CSI-2, GPIO, I2C, SPI, I2S, UART, BGA-121, RoHS |
+| USB5744        | USB Hub Controller USB 2.0, USB 3.2 USB Interface 56-VQFN (7x7)                            |
 
 ## Regulator
 
@@ -70,3 +71,4 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | **File Name** | **Description**                                                                                                                             |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------ |
 | GSB343K331HR  | USB - micro B USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 10 Position Surface Mount, Right Angle; Through Hole |
+| USB4105-GF-A  | USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole                           |

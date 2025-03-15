@@ -2426,6 +2426,1215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "User:USB5744"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -16.764 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB5744"
+				(at -0.254 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "User:USB5744"
+				(at -2.286 22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.de/en/products/detail/microchip-technology/USB5744-2G/5323585"
+				(at -1.778 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC HUB CTLR USB 56VQFN"
+				(at 0 18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "USB5744/2G"
+				(at -1.27 18.542 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at -0.762 18.542 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB Superspeed, USB Hub Controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB5744_0_1"
+				(polyline
+					(pts
+						(xy -7.62 -24.13) (xy -6.35 -24.13) (xy -6.35 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -12.7) (xy -6.35 -11.43) (xy -7.62 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 5.08 7.62) (xy 5.08 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -54.61) (xy 5.08 -54.61) (xy 5.08 -29.21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB5744_1_1"
+				(rectangle
+					(start -17.78 12.7)
+					(end 17.78 -68.58)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Upstream"
+					(at -6.858 -17.78 900)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(italic yes)
+						)
+					)
+				)
+				(text "USB5744"
+					(at -0.254 -6.604 0)
+					(effects
+						(font
+							(face "Segoe UI")
+							(size 1.524 1.524)
+							(bold yes)
+							(italic yes)
+							(color 0 0 0 1)
+						)
+					)
+				)
+				(text "Downstream"
+					(at 5.08 -23.622 900)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(italic yes)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 6.35 0)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 3.81 0)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 1.27 0)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -1.27 0)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -7.62 0)
+					(length 1.27)
+					(name "VBUS_DET"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -11.43 0)
+					(length 1.27)
+					(name "USB2UP_DP"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -13.97 0)
+					(length 1.27)
+					(name "USB2UP_DM"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -16.51 0)
+					(length 1.27)
+					(name "USB3UP_TXDP"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -19.05 0)
+					(length 1.27)
+					(name "USB3UP_TXDM"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -21.59 0)
+					(length 1.27)
+					(name "USB3UP_RXDP"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -24.13 0)
+					(length 1.27)
+					(name "USB3UP_RXDM"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -27.94 0)
+					(length 1.27)
+					(name "~{SPI_CE_N}/CFG_NON_REM"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "CFG_NOM_REM" passive line)
+				)
+				(pin passive line
+					(at -19.05 -30.48 0)
+					(length 1.27)
+					(name "SPI_DO"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "SMDAT" passive line)
+				)
+				(pin passive line
+					(at -19.05 -33.02 0)
+					(length 1.27)
+					(name "SPI_DI/CFG_BC_EN"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "CFG_BC_EN" passive line)
+				)
+				(pin passive line
+					(at -19.05 -35.56 0)
+					(length 1.27)
+					(name "SPI_CLK"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "SMCLK" passive line)
+				)
+				(pin passive line
+					(at -19.05 -40.64 0)
+					(length 1.27)
+					(name "XTALI/CLK_IN"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -48.26 0)
+					(length 1.27)
+					(name "XTALO"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -55.88 0)
+					(length 1.27)
+					(name "~{RESET_N}"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -59.69 0)
+					(length 1.27)
+					(name "ATEST"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -63.5 0)
+					(length 1.27)
+					(name "RBIAS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 13.97 270)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 13.97 270)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 13.97 270)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 13.97 270)
+					(length 1.27)
+					(name "VDD12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -69.85 90)
+					(length 1.27)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 13.97 270)
+					(length 1.27)
+					(name "VDD33"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 13.97 270)
+					(length 1.27)
+					(name "VDD33"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 13.97 270)
+					(length 1.27)
+					(name "VDD33"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 13.97 270)
+					(length 1.27)
+					(name "VDD33"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 7.62 180)
+					(length 1.27)
+					(name "USB2DN_DP1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_P1" passive line)
+				)
+				(pin passive line
+					(at 19.05 5.08 180)
+					(length 1.27)
+					(name "USB2DN_DM1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_M1" passive line)
+				)
+				(pin passive line
+					(at 19.05 2.54 180)
+					(length 1.27)
+					(name "USB3DN_TXDP1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 0 180)
+					(length 1.27)
+					(name "USB3DN_TXDM1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -2.54 180)
+					(length 1.27)
+					(name "USB3DN_RXDP1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -5.08 180)
+					(length 1.27)
+					(name "USB3DN_RXDM1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -8.89 180)
+					(length 1.27)
+					(name "USB2DN_DP2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_P2" passive line)
+				)
+				(pin passive line
+					(at 19.05 -11.43 180)
+					(length 1.27)
+					(name "USB2DN_DM2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_M2" passive line)
+				)
+				(pin passive line
+					(at 19.05 -13.97 180)
+					(length 1.27)
+					(name "USB3DN_TXDP2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -16.51 180)
+					(length 1.27)
+					(name "USB3DN_TXDM2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -19.05 180)
+					(length 1.27)
+					(name "USB3DN_RXDP2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -21.59 180)
+					(length 1.27)
+					(name "USB3DN_RXDM2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -25.4 180)
+					(length 1.27)
+					(name "USB2DN_DP3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_P3" passive line)
+				)
+				(pin passive line
+					(at 19.05 -27.94 180)
+					(length 1.27)
+					(name "USB2DN_DM3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_M3" passive line)
+				)
+				(pin passive line
+					(at 19.05 -30.48 180)
+					(length 1.27)
+					(name "USB3DN_TXDP3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -33.02 180)
+					(length 1.27)
+					(name "USB3DN_TXDM3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -35.56 180)
+					(length 1.27)
+					(name "USB3DN_RXDP3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -38.1 180)
+					(length 1.27)
+					(name "USB3DN_RXDM3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -41.91 180)
+					(length 1.27)
+					(name "USB2DN_DP4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_P4" passive line)
+				)
+				(pin passive line
+					(at 19.05 -44.45 180)
+					(length 1.27)
+					(name "USB2DN_DM4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "PRT_DIS_M4" passive line)
+				)
+				(pin passive line
+					(at 19.05 -46.99 180)
+					(length 1.27)
+					(name "USB3DN_TXDP4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -49.53 180)
+					(length 1.27)
+					(name "USB3DN_TXDM4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -52.07 180)
+					(length 1.27)
+					(name "USB3DN_RXDP4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -54.61 180)
+					(length 1.27)
+					(name "USB3DN_RXDM4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -58.42 180)
+					(length 1.27)
+					(name "PRT_CTL1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -60.96 180)
+					(length 1.27)
+					(name "PRT_CTL2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -63.5 180)
+					(length 1.27)
+					(name "PRT_CTL3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -66.04 180)
+					(length 1.27)
+					(name "PRT_CTL4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(alternate "GANG_PWR" passive line)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(wire
 		(pts
@@ -3189,6 +4398,259 @@
 			(project ""
 				(path "/695d78a6-3e90-439f-9889-ee1335c900cb"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:USB5744")
+		(at 87.63 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3869f20-a591-4921-87d3-53f08ffa446d")
+		(property "Reference" "U3"
+			(at 89.4241 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB5744"
+			(at 87.376 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "User:USB5744"
+			(at 85.344 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.de/en/products/detail/microchip-technology/USB5744-2G/5323585"
+			(at 85.852 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC HUB CTLR USB 56VQFN"
+			(at 87.63 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB5744/2G"
+			(at 86.36 86.868 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 86.868 86.868 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "39"
+			(uuid "0e215ba5-359a-416d-ba0f-b187aefbb82b")
+		)
+		(pin "49"
+			(uuid "facadab3-741e-4eef-9951-50bc05bb29f2")
+		)
+		(pin "15"
+			(uuid "eecbf4d8-72b9-49cb-a371-4fd7f31ab190")
+		)
+		(pin "38"
+			(uuid "83aaaee2-f5ee-457e-8b01-8537fb5f0043")
+		)
+		(pin "21"
+			(uuid "8d50e13f-a3de-48fc-a48a-3c55e1058252")
+		)
+		(pin "40"
+			(uuid "f7a9efe0-71ec-476f-b07f-82b9603861ae")
+		)
+		(pin "42"
+			(uuid "57f9d245-96db-470e-9aa6-ade336a259c1")
+		)
+		(pin "5"
+			(uuid "0c1cfb11-9ce0-4d73-af8c-cc3f0bed7cfe")
+		)
+		(pin "52"
+			(uuid "9cd97871-7b77-4ca9-bb8c-5b24a76ccd7a")
+		)
+		(pin "45"
+			(uuid "89063a60-f92a-4044-a21c-c2b38de9fd82")
+		)
+		(pin "51"
+			(uuid "d8bc4ca3-7cec-44a8-9de1-649ccbb486a3")
+		)
+		(pin "28"
+			(uuid "781a3d16-fdf5-43bc-9283-7e886025a5f9")
+		)
+		(pin "43"
+			(uuid "eb094346-64e3-424c-89de-dd124e672697")
+		)
+		(pin "10"
+			(uuid "d4ac0049-68eb-493c-829e-c59c932e48ec")
+		)
+		(pin "6"
+			(uuid "b95ff4e4-06cd-4471-bad8-db6666883af4")
+		)
+		(pin "50"
+			(uuid "4ee65637-ebbe-4f8e-9265-b1d21a3e9646")
+		)
+		(pin "37"
+			(uuid "6d40b92c-dd13-48e7-8bd2-0002d1cf3e43")
+		)
+		(pin "46"
+			(uuid "87e9a519-a0d0-429b-9245-f08021e56eb4")
+		)
+		(pin "48"
+			(uuid "b032188e-7b44-4552-aae1-b841130fb2ef")
+		)
+		(pin "12"
+			(uuid "d4a48a26-cb76-4bdd-960b-964366150c60")
+		)
+		(pin "41"
+			(uuid "5c606238-7f42-4a96-8460-1e38c5adf071")
+		)
+		(pin "54"
+			(uuid "59ab403c-3390-4726-9210-1b7a9526f3e7")
+		)
+		(pin "47"
+			(uuid "05e96c48-6aae-4ffb-b282-e4d88bccda32")
+		)
+		(pin "53"
+			(uuid "f35bfbb6-ae18-4ffd-9b53-88943a11f565")
+		)
+		(pin "56"
+			(uuid "c8fbe7a1-e10e-4063-8fe9-83a622067999")
+		)
+		(pin "33"
+			(uuid "04a35ebd-c7c8-48c4-bb0b-037831aaeb0c")
+		)
+		(pin "16"
+			(uuid "373a5b93-2325-4b7e-86de-501c96d88e6c")
+		)
+		(pin "31"
+			(uuid "38279bb0-a002-467a-a3fb-26f3b0ab9a8e")
+		)
+		(pin "44"
+			(uuid "72b800fb-6eb3-40af-a057-4309520ff4b6")
+		)
+		(pin "55"
+			(uuid "fcda0774-c773-41fb-8855-a418888b1cb6")
+		)
+		(pin "57"
+			(uuid "727eb3a9-9707-41df-a586-e6a9d54ae809")
+		)
+		(pin "1"
+			(uuid "940eada4-8e8f-4c37-bd3e-ee3d5613c674")
+		)
+		(pin "2"
+			(uuid "97d56661-f124-4f4c-be06-a2c1c64f5a25")
+		)
+		(pin "4"
+			(uuid "175089d9-7a7e-4f14-8e2f-3bbdc74ddca8")
+		)
+		(pin "3"
+			(uuid "803a1f51-f5d5-4fc7-b4c3-8f65b332ff80")
+		)
+		(pin "7"
+			(uuid "e423ca04-0e9d-4211-8592-cec8927aa159")
+		)
+		(pin "8"
+			(uuid "00795566-c1b2-4509-a2fe-e2cd56c0a16c")
+		)
+		(pin "9"
+			(uuid "9ea8914d-00fd-4767-80ee-5fc58e5db7dd")
+		)
+		(pin "26"
+			(uuid "3ee4a6f0-cf08-45da-8966-0df33008341c")
+		)
+		(pin "14"
+			(uuid "6f808bd5-8894-4e6a-86ed-b6f0a64b81bf")
+		)
+		(pin "27"
+			(uuid "d3466c46-c74d-49cc-a85a-89ba6b906797")
+		)
+		(pin "32"
+			(uuid "63b3c88c-c193-4a88-93e7-2f2a9480ec1a")
+		)
+		(pin "24"
+			(uuid "aef91f21-c357-483f-9357-b54d2776c033")
+		)
+		(pin "17"
+			(uuid "c295c780-b64f-4c33-9ee7-400079acb095")
+		)
+		(pin "11"
+			(uuid "6adcca15-4491-47cf-aa76-0eeb7e434bc9")
+		)
+		(pin "13"
+			(uuid "fd43e570-2688-43b5-b863-548267004d72")
+		)
+		(pin "18"
+			(uuid "5790b353-a7d5-44c1-a7e8-1d93604cbb51")
+		)
+		(pin "19"
+			(uuid "8516412d-9090-4e94-a40b-8bbb3b6f417a")
+		)
+		(pin "20"
+			(uuid "ad6977d7-0cbe-4be4-9d46-86519194aab7")
+		)
+		(pin "25"
+			(uuid "18efd4ac-ca34-4bdd-b1ee-2c9bc5c605df")
+		)
+		(pin "29"
+			(uuid "39cf89cf-1e05-4f13-a59f-dd9cbfb3fcd4")
+		)
+		(pin "22"
+			(uuid "764e5c32-143c-4a9c-af5a-fb823173ff3c")
+		)
+		(pin "23"
+			(uuid "eb0a9488-9252-4a3b-ba15-b6ba8d7632aa")
+		)
+		(pin "36"
+			(uuid "45c21fae-7391-4fb7-94b1-2a44a0892f0c")
+		)
+		(pin "35"
+			(uuid "f1d80e7e-1d55-42ef-a880-699c48f5120d")
+		)
+		(pin "30"
+			(uuid "584569e2-0c69-4dcc-9b29-9eed976e5f25")
+		)
+		(pin "34"
+			(uuid "f2854c21-01e2-4890-b671-7930b9beb828")
+		)
+		(instances
+			(project ""
+				(path "/695d78a6-3e90-439f-9889-ee1335c900cb"
+					(reference "U3")
 					(unit 1)
 				)
 			)

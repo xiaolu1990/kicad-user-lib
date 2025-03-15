@@ -1,4 +1,4 @@
-24870370658838158
+24872112647139119
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98844,8 +98844,15 @@ USB4105-GF-A
 CONN RCP USB2.0 TYP C 24P SMD RA
 USB2.0, USB C
 0
-16
-16
+20
+20
+User
+USB5744
+56-QFN-2
+Integrated Circuit
+0
+57
+57
 User_Old
 74AHC08PW-Q100J
 Package TSSOP-14
