@@ -3049,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User:ECS-80-12-33-JGN-TR"
+		(property "Footprint" "User:ECX-32"
 			(at 0 0 0)
 			(effects
 				(font

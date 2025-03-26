@@ -1,4 +1,4 @@
-(footprint "ECS-80-12-33-JGN-TR"
+(footprint "ECX-32"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "ECS-80-12-33-JGN-TR"
+	(property "Value" "ECX-32"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
