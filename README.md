@@ -1,23 +1,26 @@
 # How to use
+
 This is my KICAD library, including symbols, footprints and 3d models. The folder `3dmodels` is a submodule, so after cloning this repository, use the command:
 
 ```sh
 git submodule init
 git submodule update
 ```
+
 This will fetch the data from the submodule.
 
 The folder `template` provides templates for different PCB manufacturers based on their capabilities.
 
-In the KICAD *Config Path* settings, add the path environment varibles (`**` is the where you place this repository):
-| **Variable Name**         | **Path**                      |
+In the KICAD _Config Path_ settings, add the path environment varibles (`**` is the where you place this repository):
+| **Variable Name** | **Path** |
 | :------------------------ | :---------------------------- |
-| `USER_LIB_DIR`            | `**\kicad-user-lib\`          |
-| `USER_3DMODEL_DIR`        | `**\kicad-user-lib\3dmodels\` |
+| `USER_LIB_DIR` | `**\kicad-user-lib\` |
+| `USER_3DMODEL_DIR` | `**\kicad-user-lib\3dmodels\` |
 | `KICAD_USER_TEMPLATE_DIR` | `**\kicad-user-lib\template\` |
 
 ## Resistor
-Footprint design based on Samsung Electronics resistors. 
+
+Footprint design based on Samsung Electronics resistors.
 reference: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/39/RC_Series_ds.pdf
 
 | **File Name**   | **Description**   |
@@ -29,6 +32,7 @@ reference: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/39/RC_Se
 | R_SMD_2512.step | SMD Resistor 2512 |
 
 ## Capacitor
+
 Footprint design based on Murata capacitors.
 reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C103KA01-01.pdf
 
@@ -65,6 +69,7 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | :-------------------- | :--------------------------------------------------------------------------------- |
 | ECS-80-12-33-JGN-TR   | 8 MHz ±20ppm Crystal 12pF 400 Ohms 4-SMD, No Lead                                  |
 | ECS-327MVATX-2-CN-TR3 | 32.768 kHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead |
+| ECS-.327-12.5-34B-TR  | 32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead                           |
 
 ## Connector
 
@@ -72,3 +77,9 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------ |
 | GSB343K331HR  | USB - micro B USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 10 Position Surface Mount, Right Angle; Through Hole |
 | USB4105-GF-A  | USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole                           |
+
+## Switches
+
+| **File Name**        | **Description**                                |
+| :------------------- | :--------------------------------------------- |
+| PTS810SJM250SMTR LFS | SMD Tactile Switch SPST-NO, 4 Pin, 4.2 x 3.2mm |
