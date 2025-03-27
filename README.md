@@ -62,6 +62,7 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | **File Name**       | **Description**                                                     |
 | :------------------ | :------------------------------------------------------------------ |
 | LM1117IMPX-3.3/NOPB | Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-4 |
+| AMS1117-3.3V        | LDO Fixed 3.3V Output 1A SOT-89                                     |
 
 ## Crystals, Oscillators, Resonators
 
@@ -83,3 +84,10 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | **File Name**        | **Description**                                |
 | :------------------- | :--------------------------------------------- |
 | PTS810SJM250SMTR LFS | SMD Tactile Switch SPST-NO, 4 Pin, 4.2 x 3.2mm |
+
+## Misc
+
+| **File Name**                    | **Description**    |
+| :------------------------------- | :----------------- |
+| Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距 |
+| Jumper_SMD_xxx                   | SMD Solder Jumper  |
