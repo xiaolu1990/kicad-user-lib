@@ -58,20 +58,9 @@
 	)
 	(solder_mask_margin 0.06)
 	(attr through_hole)
-	(fp_rect
-		(start -5.08 -2.54)
-		(end -2.54 15.24)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "e60ff2ef-f31c-42dc-8e38-4109731fa207")
-	)
 	(fp_poly
 		(pts
-			(xy -2.54 -1.27) (xy 1.27 -1.27) (xy 1.27 13.97) (xy -2.54 13.97)
+			(xy -2.54 -1.27) (xy 0 -1.27) (xy 0 13.97) (xy -2.54 13.97)
 		)
 		(stroke
 			(width 0.05)
@@ -83,7 +72,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.54 -1.27) (xy 1.27 -1.27) (xy 1.27 13.97) (xy -2.54 13.97)
+			(xy -2.54 -1.27) (xy 0 -1.27) (xy 0 13.97) (xy -2.54 13.97)
 		)
 		(stroke
 			(width 0.1)
