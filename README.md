@@ -51,11 +51,12 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## MCU
 
-| **File Name**  | **Description**                                                                            |
-| :------------- | :----------------------------------------------------------------------------------------- |
-| STM32F103C8T6  | ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit Single-Core 72MHz 64KB (64K x 8) FLASH   |
-| CYUSB3065-BZXI | USB SuperSpeed Peripherals, 2/4-Lanes MIPI CSI-2, GPIO, I2C, SPI, I2S, UART, BGA-121, RoHS |
-| USB5744        | USB Hub Controller USB 2.0, USB 3.2 USB Interface 56-VQFN (7x7)                            |
+| **File Name**  | **Description**                                                                                |
+| :------------- | :--------------------------------------------------------------------------------------------- |
+| STM32F103C8T6  | ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit Single-Core 72MHz 64KB (64K x 8) FLASH       |
+| STM32U5G9ZJJ6Q | ARM® Cortex®-M33 STM32U5 Microcontroller IC 32-Bit 160MHz 4MB (4M x 8) FLASH 144-UFBGA (10x10) |
+| CYUSB3065-BZXI | USB SuperSpeed Peripherals, 2/4-Lanes MIPI CSI-2, GPIO, I2C, SPI, I2S, UART, BGA-121, RoHS     |
+| USB5744        | USB Hub Controller USB 2.0, USB 3.2 USB Interface 56-VQFN (7x7)                                |
 
 ## Regulator
 
