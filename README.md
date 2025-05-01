@@ -12,10 +12,10 @@ This will fetch the data from the submodule.
 The folder `template` provides templates for different PCB manufacturers based on their capabilities.
 
 In the KICAD _Config Path_ settings, add the path environment varibles (`**` is the where you place this repository):
-| **Variable Name** | **Path** |
+| **Variable Name**         | **Path**                      |
 | :------------------------ | :---------------------------- |
-| `USER_LIB_DIR` | `**\kicad-user-lib\` |
-| `USER_3DMODEL_DIR` | `**\kicad-user-lib\3dmodels\` |
+| `USER_LIB_DIR`            | `**\kicad-user-lib\`          |
+| `USER_3DMODEL_DIR`        | `**\kicad-user-lib\3dmodels\` |
 | `KICAD_USER_TEMPLATE_DIR` | `**\kicad-user-lib\template\` |
 
 ## Resistor
@@ -75,10 +75,11 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Connector
 
-| **File Name** | **Description**                                                                                                                             |
-| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| GSB343K331HR  | USB - micro B USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 10 Position Surface Mount, Right Angle; Through Hole |
-| USB4105-GF-A  | USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole                           |
+| **File Name** | **Description**                                                                                                                                    |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GSB343K331HR  | USB - micro B USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 10 Position Surface Mount, Right Angle; Through Hole        |
+| USB4105-GF-A  | USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole                                  |
+| USB4056-03-A  | USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole |
 
 ## Switches
 
@@ -88,7 +89,8 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Misc
 
-| **File Name**                    | **Description**    |
-| :------------------------------- | :----------------- |
-| Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距 |
-| Jumper_SMD_xxx                   | SMD Solder Jumper  |
+| **File Name**                    | **Description**           |
+| :------------------------------- | :------------------------ |
+| Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距        |
+| Jumper_SMD_xxx                   | SMD Solder Jumper         |
+| PI5USB30213AXEAEX                | USB3.0 bi-directional MUX |
