@@ -44,10 +44,11 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Diodes, LEDs
 
-| **File Name**     | **Description** |
-| :---------------- | :-------------- |
-| LED_SMD_0402.step | SMD LED 0402    |
-| LED_SMD_0603.step | SMD LED 0603    |
+| **File Name**                 | **Description**  |
+| :---------------------------- | :--------------- |
+| LED_SMD_0402.step             | SMD LED 0402     |
+| LED_SMD_0603.step             | SMD LED 0603     |
+| UHD111A-FKA-C3K23E1L3VG5ZB3Z3 | LED RGB 0404 SMD |
 
 ## MCU
 
@@ -75,11 +76,14 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Connector
 
-| **File Name** | **Description**                                                                                                                                    |
-| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GSB343K331HR  | USB - micro B USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 10 Position Surface Mount, Right Angle; Through Hole        |
-| USB4105-GF-A  | USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole                                  |
-| USB4056-03-A  | USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole |
+| **File Name**             | **Description**                                                                                                                                    |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GSB343K331HR              | USB - micro B USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 10 Position Surface Mount, Right Angle; Through Hole        |
+| USB4105-GF-A              | USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole                                  |
+| USB4056-03-A              | USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole |
+| DF12NB(5.0)-40DP-0.5V(51) | 40 Position Connector Header                                                                                                                       |
+| DF12NB-40DS-0.5V(51)      | 40 Position Connector Header                                                                                                                       |
+| BM06B-NSHSS-TBT           | Connector Header Surface Mount 6 position 0.039" (1.00mm)                                                                                          |
 
 ## Switches
 
@@ -89,8 +93,14 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Misc
 
-| **File Name**                    | **Description**           |
-| :------------------------------- | :------------------------ |
-| Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距        |
-| Jumper_SMD_xxx                   | SMD Solder Jumper         |
-| PI5USB30213AXEAEX                | USB3.0 bi-directional MUX |
+| **File Name**                    | **Description**                                                       |
+| :------------------------------- | :-------------------------------------------------------------------- |
+| Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距                                                    |
+| Jumper_SMD_xxx                   | SMD Solder Jumper                                                     |
+| PI5USB30213AXEAEX                | USB3.0 bi-directional MUX                                             |
+| TPD4E05U06DQAR                   | ESD Suppressors / TVS Diodes 4Chnl U-Lo Capacitnc IEC ESD Prot Diodes |
+| TPD2E2U06DRLR                    | TVS DIODE 5.5VWM 12.4VC SOT5                                          |
+| SN74AHC1G32DRLR                  | OR Gate IC 1 Channel SOT-5                                            |
+| W25Q16JVSSIM                     | IC FLASH 16MBIT SPI/QUAD 8SOIC                                        |
+| TCA9801DGKT                      | Voltage Level Translator Bidirectional 1 Circuit 2 Channel 8-VSSOP    |
+| NCP360SNT1G                      | USB Interface IC USB OVP SUPERVISORY                                  |

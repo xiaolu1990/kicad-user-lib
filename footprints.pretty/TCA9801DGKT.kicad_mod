@@ -1,0 +1,221 @@
+(footprint "TCA9801DGKT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IC TRANSLTR BIDIRECTIONAL 8VSSOP")
+	(property "Reference" "U**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28c2fb3b-f019-4e57-b0df-f2490b46721b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TCA9801DGKT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4312d523-31f7-433b-ba7b-07b25533c276")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.18 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a216884-dfe4-4551-abcc-ba150a4d6d57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Description" "IC TRANSLTR BIDIRECTIONAL 8VSSOP"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "506834cf-ca36-4400-96c1-9d5a8b2fe65b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(solder_mask_margin 0.06)
+	(attr smd)
+	(fp_line
+		(start -1.3 1.3)
+		(end -1.3 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8fcd09d-90fd-46e2-b9c0-e126a9c5cec0")
+	)
+	(fp_line
+		(start -1.2 1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c574e5d-20b3-4d6b-acf3-ce7e0e37ef41")
+	)
+	(fp_line
+		(start -0.9 -1.3)
+		(end -1.3 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "18720db7-8398-4296-b769-78f55b0a9f42")
+	)
+	(fp_line
+		(start -0.9 -1.3)
+		(end 1.3 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3463cf15-5a4c-4f1a-8f6c-df12761285e4")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f59c7544-607a-4c49-a25b-0211f89ed2f3")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end -1.2 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "680af64e-88d4-4aa1-a15f-0a469a99f56e")
+	)
+	(fp_rect
+		(start -3 -1.7)
+		(end 3 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cf35b482-08a4-4c8f-9daa-0312bb758761")
+	)
+	(fp_rect
+		(start -2.5 -1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "86e32ac9-4458-45bc-b309-e441cfd79383")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0a388df-aa6d-43d6-ab4c-e05d2d1692ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4e131045-0a5a-4365-b714-56a2932a4105")
+	)
+	(pad "2" smd rect
+		(at -2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "60de16a2-7695-429f-8ba7-8b72e25cc303")
+	)
+	(pad "3" smd rect
+		(at -2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "70df60f2-767b-4c01-9e4b-acb3260f12d9")
+	)
+	(pad "4" smd rect
+		(at -2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "cc49215e-7447-40c2-8dfb-63d45c9ff169")
+	)
+	(pad "5" smd rect
+		(at 2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f5e63067-fc14-4cdd-a16e-0f48d3cd351b")
+	)
+	(pad "6" smd rect
+		(at 2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "af3701c3-8e83-4655-84c1-ab322559d6f1")
+	)
+	(pad "7" smd rect
+		(at 2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "853eec3c-70ee-47a6-9c5e-f77040ce94f3")
+	)
+	(pad "8" smd rect
+		(at 2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a4146e8b-5d62-4013-81db-e136d35d3ac8")
+	)
+	(embedded_fonts no)
+	(model "${USER_3DMODEL_DIR}/ic.3dshapes/TCA9801DGKT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
