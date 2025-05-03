@@ -61,18 +61,20 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Regulator
 
-| **File Name**       | **Description**                                                     |
-| :------------------ | :------------------------------------------------------------------ |
-| LM1117IMPX-3.3/NOPB | Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-4 |
-| AMS1117-3.3V        | LDO Fixed 3.3V Output 1A SOT-89                                     |
+| **File Name**       | **Description**                                                                 |
+| :------------------ | :------------------------------------------------------------------------------ |
+| LM1117IMPX-3.3/NOPB | Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-4             |
+| AMS1117-3.3V        | LDO Fixed 3.3V Output 1A SOT-89                                                 |
+| TLV62569ADRLR       | Buck Switching Regulator IC Positive Adjustable 0.6V Output 2A SOT-563, SOT-666 |
 
 ## Crystals, Oscillators, Resonators
 
-| **File Name**         | **Description**                                                                    |
-| :-------------------- | :--------------------------------------------------------------------------------- |
-| ECS-80-12-33-JGN-TR   | 8 MHz ±20ppm Crystal 12pF 400 Ohms 4-SMD, No Lead                                  |
-| ECS-327MVATX-2-CN-TR3 | 32.768 kHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead |
-| ECS-.327-12.5-34B-TR  | 32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead                           |
+| **File Name**          | **Description**                                                                    |
+| :--------------------- | :--------------------------------------------------------------------------------- |
+| ECS-80-12-33-JGN-TR    | 8 MHz ±20ppm Crystal 12pF 400 Ohms 4-SMD, No Lead                                  |
+| ECS-327MVATX-2-CN-TR3  | 32.768 kHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead |
+| ECS-.327-12.5-34B-TR   | 32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead                           |
+| ECS-2520MVLC-192-BN-TR | 19.2 MHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead   |
 
 ## Connector
 
@@ -93,14 +95,15 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 
 ## Misc
 
-| **File Name**                    | **Description**                                                       |
-| :------------------------------- | :-------------------------------------------------------------------- |
-| Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距                                                    |
-| Jumper_SMD_xxx                   | SMD Solder Jumper                                                     |
-| PI5USB30213AXEAEX                | USB3.0 bi-directional MUX                                             |
-| TPD4E05U06DQAR                   | ESD Suppressors / TVS Diodes 4Chnl U-Lo Capacitnc IEC ESD Prot Diodes |
-| TPD2E2U06DRLR                    | TVS DIODE 5.5VWM 12.4VC SOT5                                          |
-| SN74AHC1G32DRLR                  | OR Gate IC 1 Channel SOT-5                                            |
-| W25Q16JVSSIM                     | IC FLASH 16MBIT SPI/QUAD 8SOIC                                        |
-| TCA9801DGKT                      | Voltage Level Translator Bidirectional 1 Circuit 2 Channel 8-VSSOP    |
-| NCP360SNT1G                      | USB Interface IC USB OVP SUPERVISORY                                  |
+| **File Name**                    | **Description**                                                             |
+| :------------------------------- | :-------------------------------------------------------------------------- |
+| Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距                                                          |
+| Jumper_SMD_xxx                   | SMD Solder Jumper                                                           |
+| PI5USB30213AXEAEX                | USB3.0 bi-directional MUX                                                   |
+| TPD4E05U06DQAR                   | ESD Suppressors / TVS Diodes 4Chnl U-Lo Capacitnc IEC ESD Prot Diodes       |
+| TPD2E2U06DRLR                    | TVS DIODE 5.5VWM 12.4VC SOT5                                                |
+| SN74AHC1G32DRLR                  | OR Gate IC 1 Channel SOT-5                                                  |
+| W25Q16JVSSIM                     | IC FLASH 16MBIT SPI/QUAD 8SOIC                                              |
+| TCA9801DGKT                      | Voltage Level Translator Bidirectional 1 Circuit 2 Channel 8-VSSOP          |
+| NCP360SNT1G                      | USB Interface IC USB OVP SUPERVISORY                                        |
+| SN74LVC2G17DBVR                  | Buffer, Non-Inverting 2 Element 1 Bit per Element Push-Pull Output SOT-23-6 |
