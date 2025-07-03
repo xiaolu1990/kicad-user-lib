@@ -100,7 +100,7 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | :------------------------------- | :-------------------------------------------------------------------------- |
 | Castellated_PinHeader_xxx_2.54mm | 邮票孔 2.54mm 间距                                                          |
 | Jumper_SMD_xxx                   | SMD Solder Jumper                                                           |
-| PI5USB30213AXEAEX                | USB3.0 bi-directional MUX                                                   |
+| PI5USB30213AXEAEX                | USB3.0 bi-directional MUX, (NRND)                                           |
 | TPD4E05U06DQAR                   | ESD Suppressors / TVS Diodes 4Chnl U-Lo Capacitnc IEC ESD Prot Diodes       |
 | TPD2E2U06DRLR                    | TVS DIODE 5.5VWM 12.4VC SOT5                                                |
 | SN74AHC1G32DRLR                  | OR Gate IC 1 Channel SOT-5                                                  |
@@ -108,3 +108,4 @@ reference: https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C
 | TCA9801DGKT                      | Voltage Level Translator Bidirectional 1 Circuit 2 Channel 8-VSSOP          |
 | NCP360SNT1G                      | USB Interface IC USB OVP SUPERVISORY                                        |
 | SN74LVC2G17DBVR                  | Buffer, Non-Inverting 2 Element 1 Bit per Element Push-Pull Output SOT-23-6 |
+| HD3SS3220RNHR                    | USB3.0 bi-directional MUX, CC controller                                    |

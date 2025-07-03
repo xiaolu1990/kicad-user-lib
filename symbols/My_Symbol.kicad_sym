@@ -6396,7 +6396,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "User:HD3SS3220RNHR"
 			(at -1.27 42.418 0)
 			(effects
 				(font
